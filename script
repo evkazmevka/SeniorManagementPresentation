@@ -166,9 +166,9 @@ Slide 31: The "Scary" Part: Merge Conflicts
 What it is: You and a colleague changed the exact same line on different branches.
 Business Analogy: You and Jane both edited Line 5 of the contract, but with different text.
 Slide 32: Conflicts are a Feature, Not a Bug!
-Git stops and says: "I cannot make this business decision. A human must choose."
+Git stops and says: "I cannot make this decision, someone from the team has to choose."
 Visual:
-The Solution: You (the manager) look at the two versions and decide which one is correct (or combine them).
+The Solution: You (the manager) look at the two versions line by line and decide which one is correct (or combine them).
 This prevents "silent overwrites." It is your safety net.
 Slide 33: Branching Workflow Summary
 Create a new branch (a "draft").

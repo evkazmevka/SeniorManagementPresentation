@@ -1,0 +1,269 @@
+Here is a 50-slide, 1-hour presentation plan on Git and GitHub, for a Master's in Business Management (MBM) audience.
+This structure de-emphasizes complex commands and focuses on the "Why": the business value, project management benefits, and collaboration workflows. It uses analogies and visual tools (like GitHub Desktop) instead of the command line.
+
+Seminar: Git & GitHub: A Manager's Guide to Version Control
+Audience: Master in Business Management (International Students) Duration: 60 Minutes Goal: To demonstrate the business value of Git and GitHub for project management, team collaboration, and risk reduction—no coding required.
+Part 1: The Business Problem & The Big Idea (15 minutes)
+Slides 1-12: Why We Need This
+Slide 1: Title Slide
+Title: Git & GitHub: A Manager's Guide to Version Control
+Subtitle: How to Manage Projects, Reduce Risk, and Collaborate Effectively
+Presenter: Your Name/Info
+Course: Master's in Business Management
+Slide 2:The Pain We All Know
+Visual: A catchy visual or video to support the main problems with Information management and loss of control 
+Questions for a Manager:
+Which one is the actual final version?
+Who made the change in "v3_john"?
+What's the difference between "v2" and "v2_REVISED"?
+This is chaos. This is risk.
+
+Slide 3: The Agenda (Our "Roadmap")
+The "Why": The Project Management Chaos We All Face
+The "What": Git & GitHub (The Big Idea)
+The "How": A Visual Workflow (No Code, I Promise!)
+The "Wow": Branching & Merging (Parallel Work)
+The "Hub": GitHub for Managers (Pull Requests & PM)
+Q&A
+
+
+Slide 4 : The "Shared Drive" Problem
+"Let's just use Google Drive / SharePoint / Dropbox!"
+The Problem: "File Locking" and...
+Silent Overwrites: Jane and John open the same file. Jane saves. John saves 5 minutes later. Jane's work is GONE.
+This is a "last-save-wins" race.
+Slide 6: The Solution: Version Control System (VCS)
+Analogy: It's "Track Changes" for your entire project.
+Analogy 2: It's a "Time Machine" for your files.
+It's a system that records every change, who made it, and why... forever.
+Slide 7: The Core Benefits (The "WIIFM?")
+Accountability: An unchangeable log of who changed what and when. (Your Audit Trail)
+Collaboration: A clear, safe process for merging work from 10s or 1000s of people.
+Risk Management: You can never lose work. You can "undo" any change, even from 6 months ago.
+Efficiency: Allows for "parallel work." (More on this later).
+Slide 8: It's NOT Just For Code!
+This is the key takeaway. You can (and should) version:
+Financial Models (.xlsx)
+Business Plans & Reports (.docx)
+Marketing Copy (.txt, .md)
+Legal Documents (Contracts, Terms of Service)
+Presentations (like this one!) (.pptx)
+Website Content & Designs
+Slide 9: Git vs. GitHub (The Tool vs. The Hub)
+Visual:
+Git: The "engine" on your computer. It's the software that tracks changes. (Think: Microsoft Word).
+GitHub: The "cloud website" where your team shares the project. It's the collaboration hub. (Think: Google Docs / SharePoint).
+(Alternatives: GitLab, Bitbucket)
+Slide 10: The Big Idea: "Commit" (A "Save Point")
+In Git, you don't just "save." You "commit."
+A Commit is a snapshot of your entire project at a specific moment.
+It's a "save point" with a message attached.
+Slide 11: The Art of the Commit Message (A Manager's View)
+A commit message answers the "Why?"
+Bad Message: "fixes", "stuff", "wip"
+Good Message (for a manager):
+"Update Q4 forecast with new sales data"
+"Approve final marketing copy for launch"
+"Correct calculation error in budget model"
+This is your project's live audit log.
+Slide 12: The "Three Areas" (Simplified Analogy)
+Visual:
+1. Working Folder: Your messy desk.
+2. Staging Area (The "Box"): The changes you've selected to include in the next "save point."
+3. Repository (The "Filing Cabinet"): The permanent, safe history of all your "commits."
+Why? It forces you to be intentional about what you save.
+
+Part 2: A Visual Workflow (10 minutes)
+Slides 13-22: Using the App, Not the Command Line
+Slide 13: Forget the Black Screen
+Visual:
+"Your tech team uses this. You don't have to."
+Slide 14: Meet GitHub Desktop
+Visual:
+"We will use a simple, visual app."
+It shows you what changed.
+It makes "committing" as easy as writing an email.
+Slide 15: The Basic Rhythm (Diagram)
+Edit (Change a file, e.g., a Word doc).
+Stage (Check a box in the app).
+Commit (Write your message and click "Commit").
+(Rinse and repeat)
+Slide 16: Live Demo (Step 1: Create a Project)
+Show creating a new "Repository" (project folder) on GitHub.com.
+Show "Cloning" it (downloading it) with GitHub Desktop.
+Slide 17: Live Demo (Step 2: Make a Change)
+Open a file (e.g., Project_Plan.txt).
+Add a line: "Phase 1: Discovery".
+Save the file.
+Switch to GitHub Desktop.
+Slide 18: Live Demo (Step 3: See the "Diff")
+Visual:
+GitHub Desktop highlights the change.
+Red = What was deleted.
+Green = What was added.
+This is transparency. You see exactly what changed.
+Slide 19: Live Demo (Step 4: Commit)
+Show the "Commit Message" box at the bottom.
+Write: "Add 'Phase 1: Discovery' to project plan."
+Click the "Commit" button.
+The change is now saved in your local history.
+Slide 20: Live Demo (Step 5: View History)
+Click the "History" tab in GitHub Desktop.
+Visual:
+You can see your commit! "Add 'Phase 1: Discovery'..."
+You can click it to see exactly what changed.
+Slide 21: Ignoring Files (.gitignore)
+"What about temporary files or sensitive data?"
+.gitignore is a simple "ignore list."
+Business Value: A risk management feature.
+Example:
+passwords.txt (Keeps sensitive data out)
+~*.docx (Ignores Word's temporary lock files)
+.DS_Store (Ignores Mac clutter)
+Slide 22: Local Workflow Summary
+Edit your files.
+View the changes in GitHub Desktop.
+Commit with a clear message.
+Your work is now safely snapshotted on your computer.
+
+Part 3: Branching: The "What If?" Feature (10 minutes)
+Slides 23-33: The Magic of Parallel Work
+Slide 23: The "One Version" Problem
+What if you want to...
+...draft a new proposal, but the current one is still in use?
+...let a junior employee try to edit the budget (without risk)?
+...have Legal and Marketing edit the same document at the same time?
+Slide 24: The Solution: Branching!
+A Branch is a "parallel version" or "draft space."
+The main branch is your "Official" / "Published" version.
+You create a new branch (e.g., "Draft-Q4-Report") to do your work safely.
+Slide 25: Branching (Visual Analogy)
+Visual:
+main continues untouched.
+Your new branch feat-new-idea "branches off" so you can work in isolation.
+Slide 26: The Business Case for Branching
+Risk Management: You cannot break the "live" version.
+Parallel Work: Legal can work on update-terms while Marketing works on new-homepage. They don't block each other.
+Experimentation: Create a branch to test a new financial model. If it's a bad idea? Just delete the branch. No harm done.
+Slide 27: Branching in GitHub Desktop
+Visual:
+It's just a button: "New Branch".
+You give it a name: legal-review-of-terms.
+You are now in a "parallel universe."
+Slide 28: Branch Naming (A Management Policy)
+Good branch names are like good meeting agendas.
+Bad: johns-branch, test
+Good: feat/user-login, fix/typo-on-homepage, draft/q4-legal-review
+Slide 29: Merging: Bringing It All Back
+What it is: Bringing the changes from your "draft" branch back into the "official" main branch.
+Analogy: Accepting "Track Changes" from a colleague.
+Slide 30: Merging (Visual)
+Visual:
+You take the "commit" from your draft branch...
+...and add it to the main branch.
+main is now up-to-date with your new work.
+Slide 31: The "Scary" Part: Merge Conflicts
+What it is: You and a colleague changed the exact same line on different branches.
+Business Analogy: You and Jane both edited Line 5 of the contract, but with different text.
+Slide 32: Conflicts are a Feature, Not a Bug!
+Git stops and says: "I cannot make this business decision. A human must choose."
+Visual:
+The Solution: You (the manager) look at the two versions and decide which one is correct (or combine them).
+This prevents "silent overwrites." It is your safety net.
+Slide 33: Branching Workflow Summary
+Create a new branch (a "draft").
+Do your work (commit, commit, commit).
+When ready, Merge your branch back into main.
+(Optional) Delete the draft branch.
+Part 4: GitHub & Collaboration (15 minutes)
+Slides 34-45: The "Hub" for Managers
+Slide 34: Sharing Your Work
+So far, all "commits" are just on your laptop.
+push: "Syncs" your local commits up to the shared GitHub.com website.
+pull: "Syncs" changes from your teammates down to your laptop.
+Visual:
+Slide 35: The Problem: How to Merge Safely?
+You finished your "Draft-Q4-Report" branch.
+You could just merge it into main and push...
+...but what if it's wrong? What if it needs approval?
+Slide 36: The Solution: The Pull Request (PR)
+This is the single most important concept for a manager.
+A PR is a formal request to merge your branch.
+It's a "Request for Review."
+It's a "Request for Approval."
+Slide 37: The Pull Request Lifecycle (The Business Workflow)
+Visual:
+1. Propose: You push your branch and "Open a Pull Request" on GitHub.
+2. Review: You assign your manager. "Hi @Jane_Manager, please review this new Q4 forecast."
+3. Discuss: Jane leaves comments on the files ("This number seems low," "Please check this calculation").
+4. Iterate: You make changes on your laptop, commit, and push again. The PR updates automatically.
+5. Approve: Jane clicks "Approve."
+6. Merge: Only then is the work merged into the "official" main branch.
+Slide 38: The Value of Pull Requests (For Managers)
+Quality Control: Nothing gets into the "official" version without review.
+Transparency: Everyone can see what is being proposed and why.
+Knowledge Sharing: Junior team members learn from senior review.
+Audit Trail: You have a permanent, timestamped record of every approval.
+Slide 39: Protecting Your "Official" Branch
+On GitHub, you can protect your main branch.
+Visual:
+Rule: "Cannot merge without 1 approval."
+Rule: "Cannot merge if automated tests fail."
+This is your ultimate managerial control.
+Slide 40: GitHub is Also a Project Management Tool
+It's not just for files. It's for managing the work.
+Issues: Task tracking, bug reports, and discussion items.
+(e.g., "Task: Draft Q4 Marketing Copy," "Bug: Typo on homepage")
+Slide 41: GitHub Issues
+Visual:
+Like a Trello card or Asana task.
+You can assign people, add labels (bug, marketing, urgent), and have discussions.
+Slide 42: GitHub Projects (Kanban)
+Visual:
+You can visualize all your "Issues" on a Kanban board.
+Columns: "To Do," "In Progress," "In Review," "Done."
+You can drag-and-drop tasks.
+Slide 43: Connecting It All
+You can link your "commits" to your "issues."
+Commit Message: "Fixes #42: Correct typo on homepage."
+When this commit is merged... GitHub automatically closes the task.
+The work and the record of the work are linked.
+Slide 44: What is a "Fork"? (Open Source Model)
+Analogy: You want to propose a change to a project from a different company.
+Fork: You make your own copy of their entire project on GitHub.
+You make changes to your copy.
+You send a Pull Request from your fork back to the original.
+This is how global "Open Source" collaboration works.
+Slide 45: Collaboration Summary
+push / pull to sync with the team.
+Pull Requests (PRs) are the process for quality, review, and approval.
+Issues & Projects let you manage the tasks around the work.
+
+Part 5: Conclusion & Your Next Steps (10 minutes)
+Slides 46-50: Bringing It Home
+Slide 46: Case Study: A Marketing Team
+Problem: homepage_v3_final.psd, campaign_copy_JANE.doc
+Solution: One "Repo" for all marketing assets.
+main branch = What's live on the website.
+q4-campaign branch = New work.
+PR: Legal and Brand teams review and approve all copy/images in a Pull Request before they are merged to main and go live.
+Slide 47: Case Study: A Finance Team
+Problem: budget_v2_final_REVISED.xlsx. Who changed the formula?
+Solution: Repo for all financial models.
+PR: Senior Analyst reviews all formula changes in a PR before they are merged into the "official" main budget.
+History: Can see exactly when a formula changed and who did it. (Note: Git versions Excel perfectly, even if it can't "diff" it visually).
+Slide 48: Key Takeaways for Managers
+You now understand your tech team's workflow (and can even join it).
+Version Control = Risk Management (A perfect time machine).
+Branching = Parallel Work (Safe "drafts" for everyone).
+Pull Requests = Quality Control (A formal approval process).
+This is not "just for coders." It's for anyone managing important digital assets.
+Slide 49: Your First Steps
+Go to GitHub.com and create an account (it's free).
+Download GitHub Desktop (also free).
+Create your first repository for a non-code project.
+Try it for your next group presentation.
+Slide 50: Q&A
+Title: Thank You
+Contact: Your Name, Email, LinkedIn/GitHub handle.
+
